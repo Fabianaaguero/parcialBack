@@ -1,0 +1,14 @@
+
+POST http://localhost:3000/api/tareas/
+Content-Type: application/json
+
+{
+    "nombre":"Ordenar",
+    "prioridad":"media"
+}
+
+###
+GET http://localhost:3000/api/tareas/
+
+###
+DELETE http://localhost:3000/api/tareas/66b282dd3b257fe0df04bb13
